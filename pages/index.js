@@ -7,6 +7,8 @@ import cutUrlImage from "@/public/cut-url.svg";
 import copyToClipboard from "@/lib/copyToClipboard";
 import axios from "@/lib/axios";
 
+// Trigger redeploy
+
 export default function Home() {
   const [url, setUrl] = useState("");
   const [shortUrl, setShortUrl] = useState("");
