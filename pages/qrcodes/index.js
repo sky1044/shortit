@@ -8,6 +8,8 @@ import QRCode from "@/db/models/QRCode";
 import axios from "@/lib/axios";
 import { useState } from "react";
 
+// Trigger redeploy
+
 export async function getServerSideProps() {
   await dbConnect();
   const qrCodes = await QRCode.find();
